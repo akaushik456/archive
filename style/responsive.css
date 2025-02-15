@@ -1,0 +1,106 @@
+@media (max-width:1399px) {
+    .hero-content {
+       top: 22px;
+    }
+}
+
+
+@media (max-width:1199px) {
+    .hero-banner{
+        padding-top: 60px;
+    }
+    .hero-content {
+        top: 60px;
+     }
+}
+
+@media (max-width:991px) {
+    .hero-banner {
+        padding-top: 120px;
+    }
+    .text{
+        font-size: 22px;
+        max-width: none;
+    }
+    .profile1 {
+        top: -60px;
+        left: 8%;
+    }
+    .profile3 {
+        top: -70px;
+        right: 20%;
+    }
+    .profile4 {
+        bottom: -50px;
+        left: 6%;
+    }
+    .profile2 {
+        top: 80px;
+        right: 0%; 
+    }
+    .feature-row{
+        justify-content: space-around;
+    }
+    .first-feature , .second-feature , .third-feature , .fourth-feature{
+        width: 50%;
+    }
+    .second-feature{
+        padding: 0;
+    }
+    .cards-row{
+        flex-wrap: wrap;
+    }
+    .first-card, .second-card, .third-card, .fourth-card {
+        width: 48%;
+    }
+    .footer-lists{
+        flex-wrap: wrap;
+    }
+    .footer-rows{
+        width: 33%;
+    }
+    .footer-rows:nth-child(4) {
+        margin-top: 20px;
+    }
+    .footer-rows:nth-child(5) {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:767px) {
+    .hero-banner{
+        padding-top: 30px;
+    }
+    .hero-content {
+        position: relative;
+        top: 0;
+    }
+    .hero-content h1{
+        font-size: 36px;
+    }
+    .first-feature img {
+        width: 100%;
+    }
+    .fourth-feature img {
+        width: 100%;
+    }
+    .third-feature{
+        padding: 0;
+    }
+    .third-feature , .fourth-feature {
+        margin-top: 40px;
+    }
+    .third-feature h3 , .second-feature h3{
+        font-size: 27px;
+    }
+    .cards-row {
+        justify-content: center;
+    }
+    .first-card, .second-card, .third-card, .fourth-card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:575px) {
+    
+}
