@@ -15,6 +15,10 @@
 }
 
 @media (max-width:991px) {
+    .container{
+        max-width: 900px;
+        margin: 0 auto;
+    }
     .hero-banner {
         padding-top: 120px;
     }
@@ -68,6 +72,9 @@
 }
 
 @media (max-width:767px) {
+    .container{
+       padding: 0 20px;
+    }
     .hero-banner{
         padding-top: 30px;
     }
@@ -102,5 +109,7 @@
 }
 
 @media screen and (max-width:575px) {
-    
+    .container{
+        width: 100%;
+    }
 }
