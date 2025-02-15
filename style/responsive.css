@@ -37,10 +37,10 @@
 }
 
 @media (max-width:991px) {
-    .container{
+    /* .container{
         max-width: 900px;
         margin: 0 auto;
-    }
+    } */
     .hero-banner {
         padding-top: 120px;
     }
@@ -189,6 +189,12 @@
         transition: left 0.5s ease;
         z-index: 1000;
     }
+    .footer-rows a{
+        padding: 10px 10px;
+    }
+    .footer-rows {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -204,6 +210,30 @@
     }
     .second-feature , .third-feature{
         padding-left: 20px;
+    }
+    .feature-head h2 {
+        font-size: 29px;
+    }
+    .feature-head h2::before{
+        font-size: 50px;
+    }
+    .slick-next {
+        right: -18px;
+    }
+    .slick-prev {
+        left: -20px;
+    }
+}
+
+@media (max-width: 420px) {
+    footer{
+        padding: 90px 0;
+    }
+    .footer-lists {
+        flex-direction: column;
+    }
+    .footer-rows {
+        width: 100%;
     }
 
 }
