@@ -463,3 +463,14 @@ footer{
 background: pink;
 border-radius: 50%;
 } 
+.play-store{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: end;
+    margin-top: 40px;
+}
+.play-store img{
+    width: 120px;
+    height: 40px; 
+}
