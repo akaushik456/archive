@@ -451,8 +451,15 @@ footer{
     padding: 5px 5px;
 }
 .footer-rows h3{
-    font-size: 15px;
+    font-size: 17px;
 }
 .footer-menu li{
     font-weight: 700;
 }
+.slick-prev:before, .slick-next:before{
+    color: #000;
+}
+.slick-prev, .slick-next{
+background: pink;
+border-radius: 50%;
+} 
